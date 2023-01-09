@@ -1,0 +1,45 @@
+Given two integers N and M, representing the number of rows and columns in the maze respectively, find all the paths to go from the top left cell to the bottom right cell.
+
+All moves are allowed, i.e. a valid path can consist of steps that are horizontal, vertical or diagonal in any direction, except no cell should be repeated twice in the same path.
+
+Complete the body of the print aMazePaths function - without changing the signature - to print the list of all paths that can be used to move from top-left to bottom-right. String psf is initially empty. i and j are two variables with an initial value equal to 1.
+
+Note The online judge can't force you to write the function recursively but that is what the spirit of the question is. Write recursive and not iterative logic. The purpose of the question is to aid learning recursion and not test you.
+
+Input Format
+The first line contains two integers value of N and M.
+
+Output Format
+Print total number of possible paths.
+
+Example 1
+Input
+
+2 2
+Output
+
+5
+Explanation
+
+There are only 5 ways to go from 1,1 to 2,2.
+
+right down
+right left-down right
+down right
+right-down
+down right-up down
+Example 2
+Input
+
+1 2
+Output
+
+1
+Explanation
+
+There is only 1 possible direction.
+
+Constraints
+1 <= N <= 9
+
+1 <= M <= 9

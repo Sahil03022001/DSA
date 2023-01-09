@@ -1,0 +1,54 @@
+You are given an infix expression.
+
+You are required to evaluate it and print it's value. You are also required to convert it to postfix and prefix print both of them.
+
+Input Format
+The first line contains a string s, denoting the infix expression.
+
+Output Format
+In the first line of Output print, the answer is evaluated.
+
+In the second line, print the postfix expression.
+
+In the last line, print the prefix expression.
+
+Example 1
+Input
+
+((2+((6*4)/8))-3)
+Output
+
+2
+264*8/+3-
+-+2/*6483
+Explanation
+
+The evaluated expression is printed in the first line.
+
+The infix to postfix expression is printed in the second line.
+
+The infix-to-prefix expression is printed in the third line.
+
+Example 2
+Input
+
+((1+2)+((((3*4)/5)*6)/7))
+Output
+
+4
+12+34*5/6*7/+
+++12/*/*34567
+Explanation
+
+The evaluated expression is printed in the first line.
+
+The infix to postfix expression is printed in the second line.
+
+The infix-to-prefix expression is printed in the third line.
+
+Constraints
+Expression is a valid prefix expression
+
+The only operators used are +, -, *, /
+
+All operands are single-digit numbers.

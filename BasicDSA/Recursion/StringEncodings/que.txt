@@ -1,0 +1,55 @@
+You have given string str of digits.
+
+You are required to encode the str as per the following rules
+
+    1 -> a
+    2 -> b
+    3 -> c
+    ..
+    25 -> y
+    26 -> z
+Your task is to calculate all the possible encodings and print them in new line. If no encoding is possible, print nothing.
+
+Note: print all the possible encodings in lexographical manner.
+
+Input Format
+First line contains the string str
+
+Output Format
+Print the various encodings in new line.
+
+Example 1
+Input
+
+123
+Output
+
+abc
+aw
+lc
+Explanation
+
+We have three encoding, abc => {1,2,3}, aw => {1, 23}, lc => {12, 3}
+
+Example 2
+Input
+
+013
+Output
+
+Explanation
+
+String starts with 0, which makes it invalid.
+
+Example 3
+Input
+
+303
+Output
+
+Explanation
+
+We have no encoding as we can split str as {3, 0, 3}, {30, 3}, or {3, 03}. In {3, 0, 3} we dont have a character for 0. In {30, 3} we dont have a character for 30. In {3, 03}, 03 is invalid.
+
+Constraints
+0 <= str.length <= 10
