@@ -1,0 +1,37 @@
+You are given a string 's'.
+
+You need to print length of longest possible substring that has exactly k unique characters. If there is no such string print -1.
+
+Input Format
+First line contains two integers n and k, denoting the length of string and value of k respectively.
+
+Second line contains a string s.
+
+Output Format
+Print an integer indicating the length of substring. If not possible print -1.
+
+Example 1
+Input
+
+6 1
+aabbcc
+Output
+
+2
+Explanation
+
+Max substring can be any one from {“aa” , “bb” , “cc”}.
+Example 2
+Input
+
+6 2
+aabbcc
+Output
+
+4
+Explanation
+
+Max substring can be any one from {“aabb” , “bbcc”}
+Constraints
+1<=|s|<=10^5
+1<=k<=10^5
