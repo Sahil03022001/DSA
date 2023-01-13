@@ -1,0 +1,39 @@
+You are given a string s.
+
+Your task is to find the smallest window of string with all distinct characters of the given string.
+
+Input Format
+First and only line of input contains a string s
+
+Output Format
+Return the smallest substring with all distinct characters of given string.
+
+Example 1
+Input
+
+aabcbcdbca
+Output
+
+dbca
+Explanation
+
+Possible substrings= {aabcbcd, abcbcd, 
+bcdbca, dbca....}
+Of the set of possible substrings 'dbca' 
+is the shortest substring having all the 
+distinct characters of given string. 
+Example 2
+Input
+
+aaab
+Output
+
+ab
+Explanation
+
+Possible substrings={aaab, aab, ab}
+Of the set of possible substrings 'ab' 
+is the shortest substring having all 
+the distinct characters of given string. 
+Constraints
+1<=|s|<=10^4
