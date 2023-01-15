@@ -1,0 +1,40 @@
+You are given an array nums of size N.
+
+Find the length of the longest subsequence of array nums such that the absolute difference between every adjacent element in the subsequence is one.
+
+Input Format
+First line contains the size of array N.
+
+Second line contains n-spaced integers represeting array nums.
+
+Output Format
+Print an integer denoting the length of the longest subsequence of array nums such that the difference between adjacent elements is one.
+
+Example 1
+Input
+
+5
+4 2 1 5 6
+Output
+
+3
+Explanation
+
+The longest subsequence satisfying the condition is {4, 5, 6}.
+
+Example 2
+Input
+
+6
+-2 2 -1 1 0 -1
+Output
+
+4
+Explanation
+
+The longest subsequence satisfying the condition is {-2, -1, 0, -1}. There is another possible subsequence of the same length, i.e., {2, 1, 0, -1}. The length of both the subsequences is 4.
+
+Constraints
+1 <= N <= 10^5
+
+-10^9 <= nums[i] <= 10^9
