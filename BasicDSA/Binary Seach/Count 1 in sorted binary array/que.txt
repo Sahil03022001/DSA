@@ -1,0 +1,38 @@
+Given a binary sorted non-increasing array arr of size N. You need to print the count of 1 in the binary array.
+
+Try to solve the problem using binary search
+
+Input Format
+Each test case contains two lines. The first line contains N (size of binary array). The second line contains N elements of binary array separated by space.
+
+Output Format
+In new line, print the count of 1 in binary array.
+
+Example 1
+Input
+
+8
+1 1 1 1 1 0 0 0
+Output
+
+5
+Explanation
+
+Number of 1 in given binary array : 1 1 1 1 1 0 0 0 is 5.
+
+Example 2
+Input
+
+4
+1 1 1 1
+Output
+
+4
+Explanation
+
+Number of 1 in given binary array : 1 1 1 1 is 4.
+
+Constraints
+1 <= N <= 10^6
+
+arr[i] = 0,1

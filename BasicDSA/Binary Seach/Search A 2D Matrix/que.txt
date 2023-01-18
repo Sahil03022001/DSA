@@ -1,0 +1,44 @@
+You are given a 2D matrix mat of size m x n. Each row of mat has elements sorted from left to right. Also the first(leftmost) element of each row is greater than the last(rightmost) element of previous row.
+
+You are also given an integer x, Search for this x in mat, return true if x is present in mat, else return false.
+
+Input Format
+First line contains three space-separated integers m n, which is the size of matrix mat
+
+Next m lines contains n space separated integers.
+
+Last line contains a single integer x, which is to be searched in mat
+
+Output Format
+Return true or false, according to the conditions given above
+
+Example 1
+Input
+
+3 4
+1 3 5 7
+10 11 16 20
+23 30 34 60
+10
+Output
+
+true
+Explanation
+
+x = 10, is present in middle row first column.
+
+Example 2
+Input
+
+3 4
+1 3 5 7
+10 11 16 20
+23 30 34 60
+12
+Output
+
+false
+Constraints
+1 <= m, n <= 1000
+
+-104 <= mat[i][j] <= 104

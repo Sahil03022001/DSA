@@ -1,0 +1,58 @@
+Given an array of integers A of size N and an integer B.
+
+array A is rotated at some pivot unknown to you beforehand.
+
+(i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2 ).
+
+You are given a target value, B, to search. If found in the array, print its index; otherwise, print -1.
+
+You may assume no duplicate exists in the array.
+
+Note
+
+Array A was sorted in non-decreasing order before rotation.
+
+You need to think of an O(log n) solution.
+
+Input Format
+The first line given is an integer N, denoting the size of array A.
+
+The second line given is N integers, the elements of array A.
+
+The third line given is the integer B.
+
+Output Format
+Print index of B in array A; otherwise, print -1.
+
+Example 1
+Input
+
+8
+4 5 6 7 0 1 2 3
+4
+Output
+
+0
+Explanation
+
+Target 4 is found at index 0 in A.
+
+Example 2
+Input
+
+4
+5 17 100 3
+6
+Output
+
+-1
+Explanation
+
+6 is not present in the array.
+
+Constraints
+1 <= N <= 1000000
+
+1 <= A[i] <= 10^9
+
+all elements in A are distinct.
