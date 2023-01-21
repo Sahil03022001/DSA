@@ -1,0 +1,40 @@
+Given a binary tree, determine if it is height-balanced.
+
+A height balanced tree is a tree in which absolute difference of the left and right subtrees for every node is less than or eual to 1.
+
+Input Format
+First line consists of an integer n, the number of nodes in the binary tree
+
+The next line contains n spaced integers, representing the level order traversal of the binary tree
+
+Output Format
+Print true if the binary tree is height balanced else print false
+
+Example 1
+Input
+
+5
+3 9 20 15 7
+Output
+
+false
+Explanation
+
+Left and right subtree difference for atleast one node is > 1
+
+Example 2
+Input
+
+7
+1 2 2 3 3 4 4
+Output
+
+false
+Explanation
+
+Left and right subtree difference for node 1 itself is 2 (> 1)
+
+Constraints
+0 <= n <= 5000
+
+-10^4 <= node.value <= 10^4

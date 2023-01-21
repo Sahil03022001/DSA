@@ -1,0 +1,44 @@
+Given an array of length N, where each element denotes the position of a stall. You are also given an integer K which denotes the number of cows that are aggressive. To prevent the cows from hurting each other, you need to assign the cows to the stalls, such that the minimum distance between any two of them is as large as possible. Return the largest minimum distance.
+
+Input Format
+The first line contains 'N' and 'K' denoting the number of elements in the array/list and the number of aggresive cows.
+
+The second line contains 'N' single space-separated integers denoting the elements of the array.
+
+"NOTE: " You do not need to print anything; it has already been taken care of.
+
+Just Complete the funtion.
+
+Output Format
+Print the majority element.
+
+Example 1
+Input
+
+3 2
+1 2 3
+Output:
+
+2
+Explanation:
+
+The largest minimum distance will be 2 when 2 cows are placed at positions {1,3}.
+
+Example 2
+Input
+
+6 4
+0 3 4 7 10 9
+Output:
+
+3
+Explanation:
+
+The largest distance will be 3 when 4 cows are placed at positions {0,3,7,10}.
+
+Constraints
+2<=N<=20000
+
+2<=C<=N
+
+0<=arr[i]<=10^9

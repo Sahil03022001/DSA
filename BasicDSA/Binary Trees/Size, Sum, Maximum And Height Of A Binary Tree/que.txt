@@ -1,0 +1,48 @@
+Given a binary tree a, you need to compute the size, sum, maximum and height of the tree. You must complete the function bodies for each of these functions.
+
+Input Format
+The only line of the input contains the elements of the tree in level order form separated by a space. A null node is represented by the character N. The input ends when the last node is processed.
+
+Output Format
+The first line contains the size of the tree.
+
+The second line contains the sum of the tree.
+
+The third line contains the maximum value in the tree.
+
+The fourth line contains the height of the tree.
+
+Example 1
+Input
+
+1 2 3 4 5 N N N N N N
+Output
+
+5
+15
+5
+3
+Explanation
+
+The tree looks like this:
+
+        1
+      /   \
+     2     3
+    / \
+   4   5
+The size of the tree is 5, the sum of the tree is 15, the maximum value in the tree is 5 and the height of the tree is 3.
+
+Example 2
+Input
+
+1 2 N 3 N 4 N N N
+Output
+
+4
+10
+4
+4
+Constraints
+1 <= n <= 10000
+1 <= a[i] <= 10000
