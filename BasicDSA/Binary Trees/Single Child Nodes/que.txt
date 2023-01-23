@@ -1,0 +1,48 @@
+You need to complete a function that traverses a binary tree using a preorder traversal and prints all the nodes that have only one child.
+
+The traversal and printing of the nodes should be done in separate lines.
+
+The input and output for the function have already been implemented.
+
+Input Format
+Input has been already implemented (it is a pre-order traversal of the tree)
+
+Output Format
+You need to print the single nodes in a preorder fashion.
+
+Example 1
+Input
+
+19
+50 25 12 n n 37 30 n n n 75 62 n 70 n n 87 n n
+Output
+
+30 70
+Explanation
+
+            50
+    25              75
+12      37      62      87
+      30           70
+
+Here we can see that only 30 and 70 have parents who have only 1 child.
+Example 2
+Input
+
+15
+50 25 12 n n n 75 62 30 n n n 87 n n
+Output
+
+12 30
+Explanation
+
+            50
+    25              75
+12                62      87
+                30
+
+Here we can see that only 12 and 30 have parents who have only 1 child.
+Constraints
+1 <= numOfNodes <=10^5
+
+-10^6 <= node.data <= 10^6
