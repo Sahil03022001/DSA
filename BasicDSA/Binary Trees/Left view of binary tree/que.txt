@@ -1,0 +1,50 @@
+Given the root node of a BST, print its left view i.e print all the nodes from top to bottom that will appear while looking the tree from left.
+
+Input Format
+The first line contains an integer n, the number of nodes.
+The next line inputs the value of n nodes.
+
+Output Format
+Print the left view of the tree as a single line of space-separated values.
+
+Example 1
+Input
+
+6
+1 2 5 3 4 6
+Output
+
+1 2 5 3 4 
+Explanation
+
+The BST is like :-
+     1
+      \
+       2
+        \
+         5
+        /  \
+       3    6
+        \
+         4  
+So,the left view of tree results in 1,2,5,3,4 as the required result. only 6 is not visible from left view
+Example 2
+Input
+
+3
+1 2 3
+Output
+
+1 2 3
+Explanation
+
+The BST is like :-
+       1
+         \
+           2
+             \
+              3
+So,the left view will have all three nodes.
+Constraints:
+1 <= n <= 500
+-100 <= val[node] <= 100
