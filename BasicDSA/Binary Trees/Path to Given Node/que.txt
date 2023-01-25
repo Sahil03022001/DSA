@@ -1,0 +1,51 @@
+Given the root node of a binary tree containg n nodes and an integer b, you need to find the path from root to given node b.
+
+Input Format
+The first line of input contains a number n.
+
+The second line of input contains n space seperated integer.
+
+The third line of input contains a single integer b.
+
+Output Format
+Return the path from root to the given node b.
+
+Example 1
+Input
+
+7
+1 2 3 4 5 6 7
+5
+Output
+
+1 2 5
+Explanation
+
+The given binary tree is 
+            1
+          /   \
+         2     3
+        / \   / \
+       4   5 6   7
+the path from 1 to 5 is {1,2,5}.
+Example 2
+Input
+
+5
+1 2 3 4 5
+1
+Output
+
+1
+Explanation
+
+The given tree is
+            1
+          /   \
+         2     3
+        / \  
+       4   5 
+Constraints
+1 <= n <= 105
+
+1 <= b <= n

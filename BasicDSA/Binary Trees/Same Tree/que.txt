@@ -1,0 +1,52 @@
+Given two root nodes of two separate binary trees a and b, check whether the trees are identical.
+
+Two binary trees are considered the same if they have identical shapes, and the corresponding nodes have the same value.
+
+Input Format
+You are given two separate binary trees a and b in separate lines.
+
+Output Format
+For each test case print "YES" if the trees are identical, else print "NO"
+
+Example 1
+Input
+
+1 2 3 
+1 2 3
+Output
+
+YES
+Explanation
+
+1st tree
+     1
+    / \
+   2   3
+
+2nd tree
+     1
+    / \
+   2   3
+Example 2
+Input
+
+1 2 3
+1 3 2
+Output
+
+NO
+Explanation
+
+1st tree
+     1
+    / \
+   2   3
+
+2nd tree
+     1
+    / \
+   3   2
+Constraints
+1 <= size(a), size(b) <= 100
+
+Value of any node is less than 2^32
