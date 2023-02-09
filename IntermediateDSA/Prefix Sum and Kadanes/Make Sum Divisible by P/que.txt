@@ -1,0 +1,46 @@
+You are given an array a consisting of n integers.
+
+Your task is to remove the smallest subarray (possibly empty) such that the sum of the remaining elements is divisible by p. It is not allowed to remove the whole array.
+
+Return the length of the smallest subarray that you need to remove, or -1 if it's impossible.
+
+Note
+
+A subarray is defined as a contiguous block of elements in the array.
+
+Input Format
+The first line contains two integers, n and p.
+
+The second line contains n space separated integers.
+
+Output Format
+Return an integer denoting the length of the smallest subarray.
+
+Example 1
+Input
+
+4 6
+3 1 4 2
+Output
+
+1
+Explanation
+
+The sum of the elements in nums is 10, which is not divisible by 6. We can remove the subarray [4], and the sum of the remaining elements is 6, which is divisible by 6.
+Example 2
+Input
+
+3 3
+1 2 3
+Output
+
+0
+Explanation
+
+Here the sum is 6. which is already divisible by 3. Thus we do not need to remove anything.
+Constraints
+1 <= n <= 100000
+
+1 <= p <= 10^9
+
+1 <= a[i] <= 10^9

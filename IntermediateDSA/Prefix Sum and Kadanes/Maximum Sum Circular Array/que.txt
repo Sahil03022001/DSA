@@ -1,0 +1,30 @@
+You are given a circular array arr of size n. Your task is to find the maximum possible sum of a non-empty subarray of arr.
+
+Input Format
+First line contains an integer n, which is the size of arr
+
+Second line contains n space separated integers of arr
+
+Output Format
+Complete the function MaxSum() and return the required sum.
+
+Example 1
+Input
+
+4
+1 -2 3 -2
+Output
+
+3
+Example 2
+Input
+
+3
+1 -3 1
+Output
+
+2
+Constraints
+1 <= n <= 104
+
+-104 <= arr[i] <= 104
