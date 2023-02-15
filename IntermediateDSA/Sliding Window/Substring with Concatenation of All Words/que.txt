@@ -1,0 +1,47 @@
+You are given a string str and an array of strings words. All the strings in the array words are of the same length. A concatenated substring in str is a substring which contains all the strings in the words array in any permutation.
+
+For Example: words = [ "uv", "wx", "yz" ] then the possible combinations of concatenation formed are "uvwxyz", "wxyzuv", "uvyzwx" etc. whereas "uzvwxy" is not.
+
+You are required to return the starting indices of all the concatenated substrings in str. You can return the indices in any order.
+
+Input Format
+The first line of the input contains the string str.
+
+The second line consists of a number n representing the size of the array words.
+
+The third line consists of n space-separated strings which are the elements of the array words.
+
+Output Format
+The single line of output contains the starting indices of all the concatenated substrings in strin increasing order.
+
+Example 1:
+Input
+
+cartoothetoocarmap
+2
+too car
+Output
+
+0 9
+Explanation:
+Since words.length == 2 and words[i].length == 3, the concatenated substring has to be of length 6.
+The substring starting at 0 is "cartoo". It is the concatenation of ["car","too"] which is a permutation of words.
+The substring starting at 9 is "toocar". It is the concatenation of ["too","car"] which is a permutation of words.
+Hence the answer is [0, 9].
+
+Example 2
+Input
+
+kitbit
+1
+kit
+Output
+
+0
+Explanation: Since the only string in word is "kit" which matches with the concatenation substring in "str" at 0 hence the only answer is 0.
+
+Constraints:
+1 <= str.length <= 10^4
+1 <= words.length <= 5000
+1 <= words[i].length <= 30
+str and words[i] consist of lowercase English letters.

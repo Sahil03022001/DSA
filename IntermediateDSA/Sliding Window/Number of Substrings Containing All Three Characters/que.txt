@@ -1,0 +1,38 @@
+Given a string s consisting only of characters a, b and c.
+
+Return the number of substrings containing at least one occurrence of all these characters a, b and c.
+
+Your task is to complete the function numberOfSubstrings which receives the input string and returns the number of substrings containing at least one occurrence of all these characters a, b and c.
+
+Input Format
+First line of input contains a String.
+
+Output Format
+Print the required integer.
+
+Example 1
+Input
+
+abcabc
+Output:
+
+10
+Explanation:
+
+The substrings containing at least one occurrence of the characters a, b and c are "abc", "abca", "abcab", "abcabc", "bca", "bcab", "bcabc", "cab", "cabc" and "abc" (again).
+
+Example 2
+Input
+
+aaacb
+Output
+
+3
+Explanation
+
+The substrings containing at least one occurrence of the characters a, b, and c are "aaacb", "aacb" and "acb".
+
+Constraints
+3 <= s.length <= 5 x 10^4
+
+s only consists of a, b or c characters.
