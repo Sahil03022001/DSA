@@ -1,0 +1,68 @@
+You are given a graph, a source vertex, and a destination vertex.
+
+You are also given a number named "criteria" and a number "k".
+
+You are required to find and print the values of the Smallest path and its weight separated by an "@", just the Larger path (than criteria in terms of weight), also known as ceil path, and its weight separated by an "@" and finally Kth largest path, and it's weight separated by an "@".
+
+Input Format
+Input has been managed for you.
+
+Output Format
+Output has been managed for you. You just need to give correct values to the variables already initialized for you.
+
+Example 1
+Input
+
+7
+9
+0 1 10
+1 2 10
+2 3 10
+0 3 40
+3 4 2
+4 5 3
+5 6 3
+4 6 8
+2 5 5
+0
+6
+30
+4
+Output
+
+Smallest Path = 01256@28
+Just Larger Path than 30 = 012546@36
+4th largest path = 03456@48
+Explanation
+
+All required answers are printed.
+Example 2
+Input
+
+7
+9
+0 1 10
+1 2 10
+2 3 10
+0 3 40
+3 4 2
+4 5 3
+5 6 3
+4 6 8
+2 5 5
+0
+5
+30
+2
+Output
+
+Smallest Path = 0125@25
+Just Larger Path than 30 = 012345@35
+2th largest path = 03465@53
+Explanation
+
+All required answers are printed.
+Constraints
+2 <= Number of vertices <= 55
+
+1 <= weight of vertices <= 100
