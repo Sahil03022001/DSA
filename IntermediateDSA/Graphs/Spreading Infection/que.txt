@@ -1,0 +1,53 @@
+You are given a graph, representing people and their connectivity.
+
+You are also given an src person (who got infected) and time t.
+
+You are required to find how many people will get infected in time t, if the infection spreads to neighbours of an infected person in 1 unit of time.
+
+Input Format
+Input has been managed for you
+
+Output Format
+Print the count of people infected by time t
+
+Example 1
+Input
+
+7
+8
+0 1 10
+1 2 10
+2 3 10
+0 3 10
+3 4 10
+4 5 10
+5 6 10
+4 6 10
+6
+3
+Output
+
+4
+Explanation
+
+4 vertices can be infected within 3 seconds
+
+Example 2
+Input
+
+4
+3
+0 1
+1 2
+2 3
+3
+2
+Output
+
+2
+Explanation
+
+2 vertices can be infected within 2 seconds
+
+Constraints
+None
